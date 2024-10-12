@@ -1,0 +1,15 @@
+444 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.100 (resolved driver for Chrome 129)
+455 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/ANT.AMAZON.COM/lwcislol/.cache/selenium/chromedriver/linux64/129.0.6668.100/chromedriver
+880 [main] INFO  FillFormTest - Driver initialized properly
+2159 [main] INFO  FillFormTest - URL opened
+2587 [main] INFO  FillFormTest - contact page opened
+2683 [main] INFO  FillFormTest - Subject selected
+2910 [main] INFO  FillFormTest - email submitted
+3002 [main] INFO  FillFormTest - order submitted
+3080 [main] INFO  FillFormTest - file send
+3203 [main] INFO  FillFormTest - message submitted
+6380 [main] INFO  FillFormTest - button clicked
+6380 [main] INFO  FillFormTest - Expected message = Your message has been successfully sent to our team.
+6421 [main] INFO  FillFormTest - Actual message = Your message has been successfully sent to our team.
+6448 [main] INFO  FillFormTest - Assertion passed successfully
+6449 [main] INFO  FillFormTest - Driver closed
