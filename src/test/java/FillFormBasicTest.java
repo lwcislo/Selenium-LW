@@ -1,4 +1,3 @@
-import com.sun.jna.WString;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -14,11 +13,11 @@ import java.time.Duration;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FillFormTest {
+public class FillFormBasicTest {
 
     private static WebDriver driver;
     private final String APP_URL = "http://www.automationpractice.pl/index.php";
-    private Logger log = LoggerFactory.getLogger(FillFormTest.class);
+    private Logger log = LoggerFactory.getLogger(FillFormBasicTest.class);
 
     @Test
     void shouldFillFormWithSuccess() {
@@ -116,8 +115,9 @@ public class FillFormTest {
 
         //10. zamykanie
 
-
+        driver.quit();
         log.info("Driver closed");
+
         //driver.close();
 
     }
